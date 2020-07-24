@@ -15,3 +15,10 @@ git commit -a -m"first commit" (-все файлы, -m-месседж, "опис
 
 Сброс изменений до предыдущего commit
 git checkout
+
+
+Добавление в удаленный репозиторий
+
+git remote add origin https://github.com/вашник/имяВашегоПроекта.git
+git push -u origin master
+данные ссылки появятся на гитхабе при создании нового репозитория .
