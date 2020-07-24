@@ -1,0 +1,17 @@
+git init - запуск
+
+
+git config --local/--global user.name "Name"
+git config --local/--global user.email "email@mail.mail"
+
+
+Подключение файлов 
+
+git add -A -все файлы
+git add name.css
+git add *.css
+
+git commit -a -m"first commit" (-все файлы, -m-месседж, "описание")
+
+Сброс изменений до предыдущего commit
+git checkout
